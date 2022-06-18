@@ -66,7 +66,7 @@ function saveTasks() {
 }
 
 function addSaveTask() {
-    const tasks = localStorage.getItem('tarefas')
+    const tasks = localStorage.getItem('tasks')
     const listTasks = JSON.parse(tasks)
     
     for (let task of listTasks) 
