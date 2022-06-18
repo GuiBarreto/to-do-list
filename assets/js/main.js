@@ -54,7 +54,7 @@ document.addEventListener('click', function(e) {
 
 function saveTasks() {
     const liTasks = tasks.querySelectorAll('li')
-    const listTasks = []
+    const listTasks = [];
 
     for (let task of liTasks) {
         let taskText = task.innerText
@@ -62,7 +62,7 @@ function saveTasks() {
         listTasks.push(taskText)
     }
     const tasksJSON = JSON.stringify(listTasks)
-    localStorage.setItem('task', tasksJSON)
+    localStorage.setItem('tasks', tasksJSON)
 }
 
 function addSaveTask() {
