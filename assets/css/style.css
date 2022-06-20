@@ -3,6 +3,7 @@
   --primary-color: #8B43E8;
   --secondary-color: #0C16DB;
   --primary-color-darker: rgb(9, 48, 56);
+  --color-white: #FFFFFF
 }
 
 * {
@@ -67,3 +68,25 @@ form button:hover {
 li {
   list-style: none;
 } 
+
+footer {
+  text-align: center;
+  background-color: var(--primary-color-darker);
+  font-size: 0.8em;
+  padding: 5px;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--color-white);
+  background-color: var(--primary-color-darker);
+  font-size: 0.8em;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  
+}
