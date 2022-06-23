@@ -26,14 +26,14 @@ body {
   background: #fff;
   padding: 20px;
   border-radius: 10px;
-
-}section.container {
-  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.450);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.350);
+  
 }
 
 .container h1 {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  
 }
 
 form input, form label, form button {
@@ -52,15 +52,15 @@ form input:focus {
   outline: 1px solid var(--primary-color);
 }
 
-form button {
-  border: none;
-  background: var(--primary-color);
+button {
+  background-color: var(--secondary-color);
   color: #fff;
-  font-size: 18px;
-  font-weight: 700;
-  height: 50px;
   cursor: pointer;
-  margin-top: 30px;
+  padding: 5px;
+  border-radius: 5px;
+  color: var(--color-white);
+  text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.500);
+  
 }
 
 form button:hover {
@@ -73,29 +73,28 @@ li {
 } 
 
 
-li .apagar {
-  
-}
+
 
 footer {
   text-align: center;
   background-color: var(--primary-color-darker);
-  color: var(--color-white);
-  font-size: 0.8em;
   padding: 2px;
   width: 100%;
   position: fixed;
   bottom: 0px;
+  color: var(--color-white);
 }
 
 footer a {
-  text-decoration: none;
   color: var(--color-white);
+  text-decoration: none;
   background-color: var(--primary-color-darker);
   font-size: 1em;
 }
 
 footer a:hover {
   text-decoration: underline;
+  color: var(--primary-color);
+  text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.500);
   
 }
